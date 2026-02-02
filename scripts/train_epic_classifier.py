@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Train EPIC classifier (ProstT5 + substrate) on ALL labeled data and save the model.
+Train EPIC classifier (ProstT5 + substrate) on labeled data and save the model.
 
 Inputs:
 - Dataset_classification.xlsx with columns: ID, Class, Substrate Concentration (mM)
