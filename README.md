@@ -25,7 +25,7 @@ This repository contains the **core training and inference code** for:
   - Place your datasets here, or provide paths when running scripts.
 
 - `models/`
-  - Output directory for saved `.joblib` model bundles (recommended to keep out of git and release separately).
+  - Output directory for saved `.joblib` model bundles.
 
 ---
 
