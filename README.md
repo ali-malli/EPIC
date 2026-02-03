@@ -21,9 +21,8 @@ This repository contains the **core training and inference code** for:
   - `train_epic_regressor.py` — train final regressor on all regression rows and save a joblib bundle
   - `predict_epic_regressor.py` — run regressor inference to predict activity vs glucose (requires trigrams + glucose + substrate)
 
-- `data/` (not included by default)
+- `data/` 
   - Place your datasets here, or provide paths when running scripts.
-  - See `data/README.md` for required columns and formats.
 
 - `models/`
   - Output directory for saved `.joblib` model bundles (recommended to keep out of git and release separately).
