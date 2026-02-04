@@ -34,4 +34,5 @@ This repository contains the **core training and inference code** for:
 Create an environment and install dependencies:
 
 ```bash
-pip install -r environment.yml
+conda env create -f environment.yml
+conda activate epic
