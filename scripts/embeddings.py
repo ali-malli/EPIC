@@ -7,8 +7,8 @@
 """
 
 import os
-os.environ["HF_HOME"] = "/scratch/am8992/huggingface"
-os.environ["TORCH_HOME"] = "/scratch/am8992/torch_cache"
+#os.environ["HF_HOME"] = "/scratch/am8992/huggingface"
+#os.environ["TORCH_HOME"] = "/scratch/am8992/torch_cache"
 
 import pandas as pd
 import numpy as np
