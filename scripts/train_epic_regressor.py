@@ -39,9 +39,9 @@ def main():
     ap.add_argument("--activity", default="Activity_data_for_regression.csv")
     ap.add_argument("--trigrams", default="Trigram_embeddings.csv")
     ap.add_argument("--id_col", default="ID")
-    ap.add_argument("--glu_col", default="Glucose_conc ")   # keep trailing space if present
+    ap.add_argument("--glu_col", default="Glucose_conc ")   
     ap.add_argument("--sub_col", default="Substrate_conc")
-    ap.add_argument("--y_col", default="Activity")
+    ap.add_argument("--y_col", default="Relative_activity")
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--out", default="epic_regressor_trigrams_gbr.joblib")
     args = ap.parse_args()
